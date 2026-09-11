@@ -5,7 +5,7 @@
 ![XGBoost](https://img.shields.io/badge/XGBoost-Classifier-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-A Machine Learning project that predicts the likelihood of **Heart Disease** using patient clinical data. The project follows a complete ML pipeline, including data ingestion, preprocessing, feature engineering, model training, hyperparameter tuning, evaluation, and model serialization.
+A Machine Learning project that predicts the likelihood of **Heart Disease** using patient clinical data. The project follows a complete ML pipeline, including data ingestion, preprocessing, feature engineering, model training, and evaluation.
 
 ---
 
@@ -13,7 +13,7 @@ A Machine Learning project that predicts the likelihood of **Heart Disease** usi
 
 Heart disease remains one of the leading causes of mortality worldwide. Early detection through predictive analytics can assist healthcare professionals in making informed decisions.
 
-This project leverages **FLAML (Fast Lightweight AutoML)** to automatically identify the best-performing machine learning model and optimize its hyperparameters. After evaluating multiple algorithms, FLAML selected **XGBoost Classifier** as the optimal model for heart disease prediction.
+This project leverages **FLAML (Fast Lightweight AutoML)** to automatically identify the best-performing machine learning model and optimize its hyperparameters. After evaluating multiple algorithms, it selected **XGBoost Classifier** as the best model, achieving outstanding predictive accuracy.
 
 ---
 
@@ -202,13 +202,13 @@ FLAML automatically selected **XGBoost Classifier** as the best-performing model
 Clone the repository
 
 ```bash
-git clone https://github.com/deveshdubey18/Heart-Risk-Prediction-Model.git
+git clone https://github.com/soorajnair2013-byte/Heart_Risk_PredictionModel_ml.git
 ```
 
 Move into the project directory
 
 ```bash
-cd Heart-Risk-Prediction-Model
+cd Heart_Risk_PredictionModel_ml
 ```
 
 Install dependencies
@@ -261,8 +261,8 @@ This project is licensed under the **MIT License**.
 
 # 👨‍💻 Author
 
-### Devesh Dubey
+### Sooraj Nair
 
-GitHub: https://github.com/deveshdubey18
+GitHub: https://github.com/soorajnair2013-byte
 
 If you found this project useful, consider giving it a ⭐ on GitHub!
