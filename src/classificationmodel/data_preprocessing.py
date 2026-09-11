@@ -34,7 +34,7 @@ def preprocessing(df):
 
     # Step 6: Numerical pipeline
     numerical_pipeline = Pipeline([
-        ("imputer", SimpleImputer(strategy="mean")),
+        ("imputer", SimpleImputer(strategy="median")), 
         ("scaler", MinMaxScaler())
     ])
 
